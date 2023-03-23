@@ -1,0 +1,26 @@
+/* this is a comment*/
+.container {
+    display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(40px, auto);
+}
+
+h1 {
+    grid-column: 1 / -1;
+}
+
+nav {
+    grid-column: 1 / 4;
+}
+
+h2, .bildspel {
+    grid-column: 4 / -1;
+}
+
+.match {
+    grid-column: 1 / 6;
+}
+
+.event {
+    grid-column: 6 / -1;
+}
