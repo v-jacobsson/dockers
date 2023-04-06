@@ -1,23 +1,49 @@
-h1 {
-    background-color: aquamarine;
+* {
+    background-color: #E5F3FD;
+    text-align: center;
 }
 
-nav {
-    background-color: blueviolet;
+h1 {
+    color: #d9141a;
+    font-size: 5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav {
+    text-decoration: none;
+    background-color: #d9141a;
+    color: #E5F3FD;
 }
 
 h2 {
-   background-color: beige;
+   text-align: center;
+   background-color: #d9141a;
+   color: #E5F3FD;
+}
+
+.h2 {
+    background-color: #d9141a;
+    color: #E5F3FD;
 }
 
 .bildspel {
     background-color: dimgrey;
 }
 
-.match {
-    background-color: chocolate;
+
+.bold {
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #d9141a;
 }
 
-.event {
-    background-color: darkturquoise;
+img {
+    size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+    color: #E5F3FD;
 }
