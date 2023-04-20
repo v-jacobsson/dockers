@@ -9,7 +9,11 @@ h1 {
     font-family: 'Dancing Script', cursive;
 }
 
-.nav {
+.h1 {
+    font-size: 2em;
+}
+
+.nav, nav {
     text-decoration: none;
     background-color: #d9141a;
     color: #E5F3FD;
@@ -24,10 +28,6 @@ h2 {
 .h2 {
     background-color: #d9141a;
     color: #E5F3FD;
-}
-
-.bildspel {
-    background-color: dimgrey;
 }
 
 
@@ -47,3 +47,19 @@ li {
     list-style: none;
     color: #E5F3FD;
 }
+
+/*slideshow bs*/ 
+.mySlides {
+    display: none;
+  }
+
+  /* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
