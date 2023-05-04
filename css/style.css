@@ -22,7 +22,7 @@ h1 {
     align-items: center;
 }
 
-
+/*ändra färg på nav när man håller över*/
 nav:hover, .nav:hover {
     background-color: #d9141b8f;
 }
@@ -55,6 +55,10 @@ figure {
     padding-bottom: 5px;
 }
 
+#merch li, #kontakt li {
+    color: black;
+}
+
 #bildspel2 {
     overflow: hidden;
 }
@@ -69,6 +73,7 @@ li {
     color: #E5F3FD;
 }
 
+/*nav för vad sidan längre ner*/
 .innav {
     position: sticky;
     top: 0;
@@ -88,4 +93,12 @@ li {
   @keyframes fade {
     from {opacity: .8}
     to {opacity: 1}
+  }
+
+
+  @media screen and (max-width: 450px) {
+    /*makes the little nav not stick to the top on small devices*/
+    .innav {
+        position: relative;
+    }
   }
